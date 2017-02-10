@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ILoveZappos</string>
+    <string name="title_activity_product_page">ProductPage</string>
+    <string name="title_string">Search Zappos</string>
+    <string name="style">Style</string>
+    <string name="price">Price:</string>
+</resources>

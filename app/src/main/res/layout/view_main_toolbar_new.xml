@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@color/colorPrimary"
+    android:elevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/zappos_textView"
+            style="@style/TitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="Zappos" />
+
+
+        <android.support.v7.widget.SearchView
+            android:clickable="true"
+            android:id="@+id/searchView"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignTop="@+id/cart_image_view"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/cart_image_view"
+            android:src="@drawable/ic_search_grey_24dp" />
+
+        <ImageView
+            android:id="@+id/cart_image_view"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:padding="12dp"
+            android:src="@drawable/ic_shopping_cart_grey_24dp" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>
